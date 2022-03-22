@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Seleccione el evento preferido",
+        "code": ""
+    },
+    {
+        "name": "Festivales gastronómicos",
+        "code": "E1"
+    },
+    {
+        "name": "Congresos académicos",
+        "code": "E2"
+    },
+    {
+        "name": "Congresos científicos",
+        "code": "E3"
+    },
+    {
+        "name": "Exposición de arte",
+        "code": "E4"
+    },
+    {
+        "name": "Conciertos",
+        "code": "E5"
+    },
+    {
+        "name": "Artes escénicas",
+        "code": "E6"
+    },
+    {
+        "name": "Eventos deportivos",
+        "code": "E7"
+    },
+    {
+        "name": "Ferias de libros",
+        "code": "E8"
+    },
+    {
+        "name": "Festivales cinematográficos",
+        "code": "E9"
+    },
+    {
+        "name": "Carnavales",
+        "code": "E10"
+    },
+    {
+        "name": "Ferias locales",
+        "code": "E11"
+    },
+    {
+        "name": "Festivales locales",
+        "code": "E12"
+    },
+    {
+        "name": "Danza",
+        "code": "E13"
+    },
+    {
+        "name": "Circo",
+        "code": "E14"
+    },
+    {
+        "name": "Picnic",
+        "code": "E15"
+    },
+    {
+        "name": "Senderismo nocturno",
+        "code": "E16"
+    },
+    {
+        "name": "Recorridos locales",
+        "code": "E17"
+    },
+    {
+        "name": "Safaris",
+        "code": "E18"
+    },
+    {
+        "name": "Congresos tecnológicos",
+        "code": "E19"
+    },
+    {
+        "name": "Congresos musicales",
+        "code": "E20"
+    }
+]

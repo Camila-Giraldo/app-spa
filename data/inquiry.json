@@ -1,0 +1,171 @@
+[
+    {
+        "dateSurvey": "2022-03-20",
+        "dni": "1003645870",
+        "name": "Gabriela Suarez",
+        "numbChildren": 0,
+        "phone": "316 895 0314",
+        "dateBirth": "1998-06-18",
+        "email": "gabysusu@gmail.com",
+        "earnings": 750000,
+        "colorHouse": "#FA8072",
+        "webName": "Los calidosos",
+        "issues": "Los  días en los que se reparte el agua potable a la población, no son suficientes para la cantidad de personas que viven acá.",
+        "tourismOffer": "Festivales",
+        "business": [
+            "Discotecas",
+            "Restaurantes"
+        ],
+        "leaders": [
+            {
+                "politicalLeader": "Miguel Abadía Méndez",
+                "socialLeader": "María Cano",
+                "culturalLeader": "Rubén Iriarte"
+            }
+        ],
+        "nearbyPlaces": "Villamaría",
+        "weekParty": 25,
+        "dateParty": "2022-08-07"
+    },
+    {
+        "dateSurvey": "2022-03-20",
+        "dni": "1602895741",
+        "name": "Carlos Andrés Marin",
+        "numbChildren": 2,
+        "phone": "317 038 4815",
+        "dateBirth": "1989-11-03",
+        "email": "andresmar@gmail.com",
+        "earnings": 1200000,
+        "colorHouse": "#ACFF33",
+        "webName": "Localidad alegre",
+        "issues": "La convivencia a veces es complicada entre la población.",
+        "tourismOffer": "Excursiones",
+        "business": [
+            "Discotecas",
+            "Restaurantes",
+            "Tiendas locales"
+        ],
+        "leaders": [
+            {
+                "politicalLeader": "Marcela Amaya",
+                "socialLeader": "Margarita Restrepo",
+                "culturalLeader": "Rubén Iriarte"
+            }
+        ],
+        "nearbyPlaces": "Salamina",
+        "weekParty": 13,
+        "dateParty": "2022-01-07"
+    },
+    {
+        "dateSurvey": "2022-03-20",
+        "dni": "1058694751",
+        "name": "Juan Miguel Gonzales",
+        "numbChildren": 0,
+        "phone": "301 897 0357",
+        "dateBirth": "1995-01-14",
+        "email": "juanmig@gmail.com",
+        "earnings": 550000,
+        "colorHouse": "#33A2FF",
+        "webName": "Turismo de calidad",
+        "issues": "No hay ningún problema.",
+        "tourismOffer": "Lugares históricos",
+        "business": [
+            "Tiendas locales"
+        ],
+        "leaders": [
+            {
+                "politicalLeader": "German Arce",
+                "socialLeader": "Margarita Restrepo",
+                "culturalLeader": "Juan David Padilla"
+            }
+        ],
+        "nearbyPlaces": "Villamaría",
+        "weekParty": 30,
+        "dateParty": "2022-06-23"
+    },
+    {
+        "dateSurvey": "2022-03-21",
+        "dni": "1052697364",
+        "name": "Luisa María Quiñones",
+        "numbChildren": 3,
+        "phone": "312 035 5987",
+        "dateBirth": "1969-01-14",
+        "email": "luisamariaq@gmail.com",
+        "earnings": 780000,
+        "colorHouse": "#F633FF",
+        "webName": "Localidad decente",
+        "issues": "No todas las casas quedan abastecidas con agua potable.",
+        "tourismOffer": "Museos",
+        "business": [
+            "Restaurantes"
+        ],
+        "leaders": [
+            {
+                "politicalLeader": "Marcela Amaya",
+                "socialLeader": "Angelo Cardona",
+                "culturalLeader": "Juan David Padilla"
+            }
+        ],
+        "nearbyPlaces": "Salamina",
+        "weekParty": 18,
+        "dateParty": "2022-05-30"
+    },
+    {
+        "dateSurvey": "2022-03-21",
+        "dni": "9645037",
+        "name": "Carmenza Lopez",
+        "numbChildren": 1,
+        "phone": "300 967 0332",
+        "dateBirth": "1975-12-05",
+        "email": "carmenzalop@gmail.com",
+        "earnings": 1200000,
+        "colorHouse": "#33CEFF",
+        "webName": "Los turistas decentes",
+        "issues": "La convivencia se vuelve complicada en algunas situaciones.",
+        "tourismOffer": "Museos",
+        "business": [
+            "Restaurantes",
+            "Discotecas",
+            "Tiendas locales"
+        ],
+        "leaders": [
+            {
+                "politicalLeader": "Miguel Abadía Méndez",
+                "socialLeader": "María Cano",
+                "culturalLeader": "Ricardo Camacho"
+            }
+        ],
+        "nearbyPlaces": "Risaralda",
+        "weekParty": 25,
+        "dateParty": "2022-08-07"
+    },
+    {
+        "dateSurvey": "2022-03-21",
+        "dni": "1004897250",
+        "name": "Nicol Jimenez",
+        "numbChildren": 1,
+        "phone": "315 002 7841",
+        "dateBirth": "2001-09-15",
+        "email": "nicoljimenezz@gmail.com",
+        "earnings": 700000,
+        "colorHouse": "#FFC133",
+        "webName": "Turismo de calidad",
+        "issues": "El abastecimiento de agua potable para todas las familias es insuficiente.",
+        "tourismOffer": "Visitas ecológicas",
+        "business": [
+            "Restaurantes",
+            "Tiendas locales",
+            "Discotecas"
+        ],
+        "leaders": [
+            {
+                "politicalLeader": "Marcela Amaya",
+                "socialLeader": "María Cano",
+                "culturalLeader": "Juan David Padilla"
+            }
+        ],
+        "nearbyPlaces": "Villamaría",
+        "weekParty": 10,
+        "dateParty": "2022-02-17"
+    }
+]

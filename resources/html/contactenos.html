@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./resources/css/contactenos.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <section role="section" class="col">
+                    <h1>Contacte con nosotros</h1>
+                    <br />
+                    <p>
+                        Para nosotros es muy importante conocer que tipo de oferta de
+                        eventos prefieres, así que agradecemos mucho que nos brindes
+                        esta información.
+                    </p>
+                    <p>
+                        Si deseas que contactemos contigo puedes darnos tu correo
+                        electrónico, no es obligatorio y se utilizará respetando las
+                        normas de protección de datos, por lo tanto no será
+                        compartido.
+                    </p>
+                    <form id="contacto">
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="name">Nombre</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input
+                                    type="text"
+                                    id="name"
+                                    autocomplete="name"
+                                    required
+                                    minlength="3"
+                                    maxlength="25"
+                                />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="last-name">Apellidos</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input
+                                    type="text"
+                                    id="last-name"
+                                    autocomplete="on"
+                                    required
+                                    minlength="3"
+                                    maxlength="25"
+                                />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="email">Correo</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    autocomplete="on"
+                                    required
+                                />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="event">Evento preferido</label>
+                            </div>
+                            <div class="form-col-8">
+                                <select name="event" id="event" required>
+                                    <option value="">Elija un tipo de evento</option>
+                                    <option value="E1">Conciertos</option>
+                                    <option value="E2">Eventos deportivos</option>
+                                    <option value="E3">Festivales de teatro</option>
+                                    <option value="E4">Ferias y fiestas</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="offset-form-col-4 form-col-8">
+                                <button id="send">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <aside role="complementary" class="col">
+                    <h2>De interés</h2>
+                    <p>
+                        El
+                        <a href="https://festivaldemanizales.com/"
+                            >Festival Internacional de Teatro de Manizales</a
+                        >
+                        es una fiesta cultural que se realiza anualmente desde 1968
+                        en la ciudad de las puertas abiertas, ubicada en la región
+                        del Eje Cafetero de Colombia.
+                    </p>
+                    <p>
+                        El
+                        <a
+                            href="http://patrimonio.mincultura.gov.co/legislacion/Paginas/Carnaval-de-Riosucio.aspx"
+                        >
+                            carnaval de Riosucio Caldas</a
+                        >
+                        es una amalgama de saberes en torno a las artes manuales, la
+                        danza y lo que se conoce como "literatura matachinesca". Se
+                        celebra cada dos años a inicios de enero y es un acto
+                        simbólico que unió dos pueblos enfrentados históricamente en
+                        la región: San Sebastián de Quiebralomo y el pueblo de La
+                        Montaña.
+                    </p>
+                </aside>
+            </div>
+        </div>
+    </body>
+</html>

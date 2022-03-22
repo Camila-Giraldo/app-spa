@@ -1,0 +1,306 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./resources/css/blog.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <section role="section" class="col">
+          <h1>Intervención social</h1>
+          <br />
+          <p>
+            Para nosotros es muy importante mejorar las condiciones del sector
+            turístico de la localidad donde usted se encuentra, por lo que
+            deseamos que nos colabore contestando la siguiente encuesta:
+          </p>
+          <br />
+          <form id="intervencion-social">
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="date-survey">Fecha en que se realiza</label>
+              </div>
+              <div class="form-col-8">
+                <input
+                  type="date"
+                  name="date-survey"
+                  pattern="\d{4}/\d{1,2}/\d{1,2}"
+                  id="date-survey"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="dni">Documento de identidad</label>
+              </div>
+              <div class="form-col-8">
+                <input type="text" name="dni" id="dni" required minlength="6" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="name">Nombre completo</label>
+              </div>
+              <div class="form-col-8">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                  minlength="3"
+                  maxlength="60"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="numb-children">Número de hijos</label>
+              </div>
+              <div class="form-col-8">
+                <input
+                  type="number"
+                  name="numb-children"
+                  id="numb-children"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="phone">Telefono</label>
+              </div>
+              <div class="form-col-8">
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="date-birth">Fecha de nacimiento</label>
+              </div>
+              <div class="form-col-8">
+                <input type="date" name="date-birth" id="date-birth" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="email">Correo electrónico</label>
+              </div>
+              <div class="form-col-8">
+                <input type="email" name="email" id="email" autocomplete="on" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="earnings">Ingresos</label>
+              </div>
+              <div class="form-col-8">
+                <input
+                  type="number"
+                  name="earnings"
+                  id="earnings"
+                  required
+                  min="50000"
+                  max="1500000"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="color-house">Color deseado de su fachada</label>
+              </div>
+              <div class="form-col-8">
+                <input
+                  type="color"
+                  name="color-house"
+                  id="color-house"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="web-name"
+                  >Nombre de página web para la localidad</label
+                >
+              </div>
+              <div class="form-col-8">
+                <input
+                  type="text"
+                  name="web-name"
+                  id="web-name"
+                  required
+                  minlength="10"
+                  maxlength="50"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="issues"
+                  >Descripción de las problemáticas que existen en la
+                  localidad</label
+                >
+              </div>
+              <div class="form-col-8">
+                <textarea
+                  name="issues"
+                  id="issues"
+                  cols="45"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="tourism-offer">Eventos que prefiere</label>
+              </div>
+              <div class="form-col-8">
+                <input type="radio" name="tourism-offer" id="t1" />
+                <label for="t1">Excursiones</label>
+              </div>
+              <div class="form-col-8">
+                <input type="radio" name="tourism-offer" id="t2" />
+                <label for="t2">Visitas ecológicas</label>
+              </div>
+              <div class="form-col-8">
+                <input type="radio" name="tourism-offer" id="t3" />
+                <label for="t3">Festivales</label>
+              </div>
+              <div class="form-col-8">
+                <input type="radio" name="tourism-offer" id="t4" />
+                <label for="t4">Museos</label>
+              </div>
+              <div class="form-col-8">
+                <input type="radio" name="tourism-offer" id="t5" />
+                <label for="t5">Lugares históricos</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="business">Posibilidades de negocios</label>
+              </div>
+              <div class="form-col-8">
+                <input type="checkbox" name="b1" id="b1" />
+                <label for="b1">Discotecas</label>
+              </div>
+              <div class="form-col-8">
+                <input type="checkbox" name="b2" id="b2" />
+                <label for="b2">Restaurantes</label>
+              </div>
+              <div class="form-col-8">
+                <input type="checkbox" name="b3" id="b3" />
+                <label for="b3">Tiendas locales</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="leaders">Elija los líderes por categoría</label>
+              </div>
+              <div class="form-col-8">
+                <label for="political-leader">Líder político</label>
+                <input
+                  type="text"
+                  list="political-leaders"
+                  name="political-leader"
+                  id="political-leader"
+                  required
+                />
+              </div>
+              <div class="form-col-8">
+                <label for="social-leader">Líder social</label>
+                <input
+                  type="text"
+                  list="social-leaders"
+                  name="social-leader"
+                  id="social-leader"
+                  required
+                />
+              </div>
+              <div class="form-col-8">
+                <label for="cultural-leader">Líder cultural</label>
+                <input
+                  type="text"
+                  list="cultural-leaders"
+                  name="cultural-leader"
+                  id="cultural-leader"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="places">Elija un lugar aledaño</label>
+              </div>
+              <div class="form-col-8">
+                <input
+                  type="text"
+                  list="nearby-places"
+                  name="places"
+                  id="places"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="week-party"
+                  >Semana en la que se celebra la fiesta</label
+                >
+              </div>
+              <div class="form-col-8">
+                <input type="week" name="week-party" id="week-party" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-col-4">
+                <label for="date-party"
+                  >Si no existe la fiesta, ¿en qué fecha le gustaría que
+                  fuera?</label
+                >
+              </div>
+              <div class="form-col-8">
+                <input type="date" name="date-party" id="date-party" />
+              </div>
+            </div>
+            <div class="form-group">
+
+            </div>
+          </form>
+          <button type="submit">Enviar</button>
+        </section>
+      </div>
+    </div>
+
+    <datalist id="nearby-places">
+      <option value="Villamaría"></option>
+      <option value="Chinchiná"></option>
+      <option value="Risaralda"></option>
+      <option value="Viterbo"></option>
+      <option value="Filadelfia"></option>
+      <option value="Salamina"></option>
+      <option value="Aguadas"></option>
+      <option value="La Dorada"></option>
+    </datalist>
+    <datalist id="political-leaders">
+      <option value="Miguel Abadía Méndez"></option>
+      <option value="German Arce"></option>
+      <option value="Marcela Amaya"></option>
+    </datalist>
+    <datalist id="social-leaders">
+      <option value="María Cano"></option>
+      <option value="Angelo Cardona"></option>
+      <option value="Margarita Restrepo"></option>
+    </datalist>
+    <datalist id="cultural-leaders">
+      <option value="Juan David Padilla"></option>
+      <option value="Ricardo Camacho"></option>
+      <option value="Rubén Iriarte"></option>
+    </datalist>
+  </body>
+</html>

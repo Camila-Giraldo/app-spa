@@ -1,0 +1,21 @@
+{
+  "name": "app-spa",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Flexbox",
+    "Media Query"
+  ],
+  "author": "Camila Giraldo Cañon",
+  "license": "ISC",
+  "description": "Aplicación de prueba de HTML, CSS y JavaScript",
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  }
+}
