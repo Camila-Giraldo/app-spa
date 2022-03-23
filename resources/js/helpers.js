@@ -33,6 +33,12 @@ export default class Helpers {
         })
     }
 
+
+    /**
+     * 
+     * @param {String} selector Un selector CSS que permite obtener el valor seleccionado en un select 
+     *  @returns Retorna el índice, valor y texto de la opción seleccionada por el usuario
+     */
     static selectedItemList = selector => {
         const list = document.querySelector(selector)
         const item = list.options[list.selectedIndex]
@@ -43,6 +49,15 @@ export default class Helpers {
         }
     }
 
+    /**
+     * 
+     * @param {String} selector Un selector CSS que permite seleccionar los valores de una lista desplegable 
+     * @param {list} items Datos que se adquieren por medio de un archivo JSON
+     * @param {String} value El valor que se le da a la opción
+     * @param {String} text El texto que ocupará la opción para ser mostrada al usuario
+     * @param {String} firstOption
+     * @returns Una lista con los datos del archivo JSON
+     */
     static populateSelectList = (selector, items = [], value = '', text = '', firstOption = '') => {
         let list = document.querySelector(selector)
         list.options.length = 0
@@ -53,6 +68,12 @@ export default class Helpers {
         return list // <-- OJO
     }
 
+    /**
+     * 
+     * @param {String} url Ruta del archivo html que necesita ser cargado 
+     * @param {String} container El contenedor html donde se cargarán los valores que se encuentren en la url 
+     * 
+     */
     static loadPage = async (url, container) => {
         try {
             const element = document.querySelector(container)
@@ -76,6 +97,11 @@ export default class Helpers {
         }
     }
 
+    /**
+     * 
+     * @param {String} url Ruta del archivo JSON al que accederá 
+     * @returns La respuesta que se da al acceder al archivo
+     */
     static fetchData = async url => {
 
         const response = await fetch(url)

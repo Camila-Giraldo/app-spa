@@ -74,21 +74,6 @@
                 </div>
                 <div class="form-group">
                     <div class="form-col-4">
-                        <label for="country">País</label>
-                    </div>
-                    <div class="form-col-8">
-                        <select name="country" id="country">
-                            <option value="">Seleccione un país</option>
-                            <option value="P1">Colombia</option>
-                            <option value="P2">Perú</option>
-                            <option value="P3">Panamá</option>
-                            <option value="P4">Chile</option>
-                            <option value="P5">Argentina</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="form-col-4">
                         <label for="interests">Intereses</label>
                     </div>
                     <div class="form-col-8">
@@ -130,18 +115,31 @@
                         <label for="city">Ciudad</label>
                     </div>
                     <div class="form-col-8">
-                        <input
-                            type="text"
-                            name="city-name"
-                            id="city-name"
-                            placeholder="Manizales"
-                        />
-                        <input
-                            type="text"
-                            name="city-department"
-                            id="department"
-                            placeholder="Caldas"
-                        />
+                        <select name="city" id="city">
+                            <option value="">Elija una ciudad</option>
+                            <option value="5001">Medellín</option>
+                            <option value="503">Amagá</option>
+                            <option value="504">Anori</option>
+                            <option value="15476">Motavita</option>
+                            <option value="23675">San Bernardo del Viento</option>
+                            <option value="27361">Istmina</option>
+                            <option value="15189">Ciénega</option>
+                            <option value="68573">Puerto Parra</option>
+                            <option value="5037">Uribe</option>
+                            <option value="17001">Manizales</option>
+                            <option value="17013">Aguadas</option>
+                            <option value="17042">Anserma</option>
+                        </select>
+                        <select name="department" id="department">
+                            <option value="">Elija un departamento</option>
+                            <option value="5">Antioquia</option>
+                            <option value="15">Boyacá</option>
+                            <option value="23">Córdoba</option>
+                            <option value="27">Chocó</option>
+                            <option value="68">Santander</option>
+                            <option value="50">Meta</option>
+                            <option value="17">Caldas</option>
+                        </select>
                         <input
                             type="text"
                             name="city-zip-code"
