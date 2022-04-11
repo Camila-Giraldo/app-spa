@@ -3,6 +3,7 @@
 import Helpers from './helpers.js'
 
 let inquiry
+let address
 
 document.addEventListener('DOMContentLoaded', main)
 
@@ -182,6 +183,29 @@ async function loadAbout(url, container) {
 
 async function loadParticipants(url, container) {
     await Helpers.loadPage(url, container)
+
+    address = await Helpers.fetchData('../data/colombia.json')
+
+    const departments = [
+        ...new Map(
+            address.map(
+                item => [item['CÓDIGO DANE DEL DEPARTAMENTO'], item]
+            )
+        ).values()
+    ]
+    
+    fillSelectDepartments(departments)
+}
+
+function fillSelectDepartments(departments) {
+    const lstDepartments = Helpers.populateSelectList('#department', departments, 'CÓDIGO DANE DEL DEPARTAMENTO', 'DEPARTAMENTO', 'Elija un departamento')
+    lstDepartments.addEventListener('change', e => {
+        const municipalities = address.filter(
+            item => item['CÓDIGO DANE DEL DEPARTAMENTO'] == e.target.value
+        ).map(item => item)
+
+        const lstMunicipalities = Helpers.populateSelectList('#city', municipalities, 'CÓDIGO DANE DEL MUNICIPIO', 'MUNICIPIO', 'Elija un municipio')
+    })
 }
 
 async function loadContact(url, container) {
